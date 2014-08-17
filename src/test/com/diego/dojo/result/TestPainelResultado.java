@@ -1,4 +1,4 @@
-package com.diego.dojo;
+package com.diego.dojo.result;
 
 import java.util.Date;
 
@@ -12,6 +12,7 @@ import com.diego.dojo.entity.Jogador;
 import com.diego.dojo.entity.Morte;
 import com.diego.dojo.entity.Partida;
 import com.diego.dojo.entity.Pontuacao;
+import com.diego.dojo.result.PainelResultado;
 
 public class TestPainelResultado {
 

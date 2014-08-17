@@ -1,4 +1,4 @@
-package com.diego.dojo;
+package com.diego.dojo.result;
 
 import java.text.SimpleDateFormat;
 import java.util.Set;

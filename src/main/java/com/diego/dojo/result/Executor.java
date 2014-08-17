@@ -1,4 +1,4 @@
-package com.diego.dojo;
+package com.diego.dojo.result;
 
 import java.io.BufferedReader;
 import java.io.File;

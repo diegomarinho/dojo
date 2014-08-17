@@ -5,6 +5,8 @@ import java.text.ParseException;
 import java.util.List;
 
 import com.diego.dojo.entity.Partida;
+import com.diego.dojo.result.Executor;
+import com.diego.dojo.result.PainelResultado;
 
 /**
  * Read file "logfile.log".

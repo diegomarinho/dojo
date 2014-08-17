@@ -1,4 +1,4 @@
-package com.diego.dojo;
+package com.diego.dojo.result;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -12,6 +12,7 @@ import org.junit.Test;
 import com.diego.dojo.entity.CategoryEnum;
 import com.diego.dojo.entity.Morte;
 import com.diego.dojo.entity.Partida;
+import com.diego.dojo.result.Executor;
 
 public class TestExecutor {
 
