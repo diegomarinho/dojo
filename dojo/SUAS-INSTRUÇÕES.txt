@@ -1,0 +1,12 @@
+(C)Copyright 2014. Todos os direitos reservados.
+
+PRE-REQUISITOS:
+
+Preciso ter o Maven instalado em seu sistema local.
+
+
+PASSO-A-PASSO:
+
+[PASSO 1] Executar o comando "mvn clean install"
+[PASSO 2] Executar classe princial: "com.diego.dojo.AppGame.java"
+[PASSO 3] Arquivo de entrada de dados: "logfile.log"
