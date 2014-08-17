@@ -91,9 +91,8 @@ public class Executor {
 		} else if (linhaArquivo.indexOf(CategoryEnum.FIM_PARTIDA.getDescricao()) != -1) {
 			// da partida
 			carregarFimPartida(dataLog, linhaArquivo);
-		} else if (linhaArquivo.indexOf(CategoryEnum.MUNDO.getDescricao()) != -1) {
-			// morto pelo mundo
-			carregarMortePeloMundo(dataLog, linhaArquivo);
+		} else if (linhaArquivo.indexOf(CategoryEnum.WORLD.getDescricao()) != -1) {
+			// morto por <WORLD> desconsiderar
 		} else {
 			// morto por um jogador
 			carregarMorte(dataLog, linhaArquivo);
@@ -103,11 +102,6 @@ public class Executor {
 	private void carregarMorte(Date dataLog, String linhaArquivo) {
 		Morte morte = morteMB.criarMorte(dataLog, linhaArquivo);
 		eventoMB.adicionarMorte(partidaAtual, morte);
-	}
-
-	private void carregarMortePeloMundo(Date dataLog, String log) {
-		// System.out.println(PARTIDA + partidaAtual.getNome() + " "
-		// + MORTO_POR_MUNDO);
 	}
 
 	private void carregarFimPartida(Date dataLog, String log) {

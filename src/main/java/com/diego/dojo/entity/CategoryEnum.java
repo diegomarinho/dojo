@@ -5,11 +5,11 @@ import com.diego.dojo.entity.domain.BSEnum;
 public enum CategoryEnum implements BSEnum {
 
 	PADRAO_DATA(0L, "dd/MM/yyyy hh:mm:ss"),
-	MORTO_POR_MUNDO(1L, "morto por mundo, morte desconsiderada."),
+	MORTO_POR_WORLD(1L, "morto por <WORLD>, morte desconsiderada."),
 	SEPARADOR_LINHA_LOG(2L, " - "),
 	INICIO_PARTIDA(3L, "New match "),
 	FIM_PARTIDA(4L, "Match"),
-	MUNDO(5L, "<WORLD>"),
+	WORLD(5L, "<WORLD>"),
 	KILLED(6L, " killed "),
 	USING(7L, " using "),
 	PARTIDA(8L, "PARTIDA........: "),

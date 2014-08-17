@@ -83,7 +83,7 @@ public class TestExecutor {
 	}
 
 	@Test
-	public void testMortePorMundo() throws ParseException {
+	public void testMortePorWorld() throws ParseException {
 		final Executor executor = new Executor();
 		executor.carregarLinha("23/04/2013 15:36:33 - <WORLD> killed Nick by DROWN");
 		Assert.assertNull(executor.getPartidaAtual());
