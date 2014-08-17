@@ -2,6 +2,10 @@ package com.diego.dojo.entity;
 
 import com.diego.dojo.entity.domain.BSEnum;
 
+/**
+ * @author Diego
+ * @since 16/08/2014
+ */
 public enum CategoryEnum implements BSEnum {
 
 	PADRAO_DATA(0L, "dd/MM/yyyy hh:mm:ss"),

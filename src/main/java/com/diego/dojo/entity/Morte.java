@@ -3,8 +3,6 @@ package com.diego.dojo.entity;
 import java.util.Date;
 
 /**
- * Entidade responsavel por quardar os atributos de uma morte no jogo.
- * 
  * @author Diego
  * @since 15/08/2014
  */

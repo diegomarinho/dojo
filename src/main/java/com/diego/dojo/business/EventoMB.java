@@ -13,8 +13,6 @@ import com.diego.dojo.entity.Pontuacao;
 import com.diego.dojo.util.CalendarUtil;
 
 /**
- * Classe responsavel por tratar os eventos da partida.
- * 
  * @author Diego
  * @since 15/08/2014
  */

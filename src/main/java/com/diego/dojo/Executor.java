@@ -18,8 +18,6 @@ import com.diego.dojo.entity.Morte;
 import com.diego.dojo.entity.Partida;
 
 /**
- * Entidade responsavel por quardar os atributos de uma arma no jogo.
- * 
  * @author Diego
  * @since 15/08/2014
  */

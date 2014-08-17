@@ -9,8 +9,6 @@ import com.diego.dojo.entity.Jogador;
 import com.diego.dojo.entity.Morte;
 
 /**
- * Serviço responsável por tratar as mortes de um jogador.
- * 
  * @author Diego
  * @since 15/08/2014
  */

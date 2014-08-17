@@ -3,8 +3,6 @@ package com.diego.dojo.entity;
 
 
 /**
- * Entidade responsavel por quardar os atributos de um jogador no jogo.
- * 
  * @author Diego
  * @since 15/08/2014
  */

@@ -7,8 +7,6 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Entidade responsavel por quardar os atributos de uma partida no jogo.
- * 
  * @author Diego
  * @since 15/08/2014
  */

@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Entidade responsavel por quardar os atributos de uma linha da pontuação.
- * 
  * @author Diego Almeida
  * @since 15/08/2014
  */
