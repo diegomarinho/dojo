@@ -98,7 +98,7 @@ public class Executor {
 	}
 
 	private void carregarMorte(Date dataLog, String linhaArquivo) {
-		Morte morte = morteMB.criarMorte(dataLog, linhaArquivo);
+		Morte morte = morteMB.carregarDadosPartida(dataLog, linhaArquivo);
 		eventoMB.adicionarMorte(partidaAtual, morte);
 	}
 

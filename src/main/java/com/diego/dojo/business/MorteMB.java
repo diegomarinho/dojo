@@ -15,13 +15,13 @@ import com.diego.dojo.entity.Morte;
 public class MorteMB {	// NOPMD - ExcessiveClassLength - Delegate.
 
 	/**
-	 * Cria uma entidade morte e seta seus atributos.
+	 * Responsavel por carregar os dados da partida.
 	 * 
 	 * @param dataMorte
 	 * @param linhaArquivo
 	 * @return
 	 */
-	public Morte criarMorte(Date dataMorte, String linhaArquivo) {
+	public Morte carregarDadosPartida(Date dataMorte, String linhaArquivo) {
 		String nomeMatador = linhaArquivo.substring(0, linhaArquivo.indexOf(" "));
 		linhaArquivo = linhaArquivo.substring(nomeMatador.length());
 		linhaArquivo = linhaArquivo.substring(CategoryEnum.KILLED.getDescricao().length());

@@ -13,7 +13,7 @@ public class TestMorteMB {
 	public void testMorteJogador() {
 		final MorteMB servico = new MorteMB();
 		final Date data = new Date();
-		final Morte morte = servico.criarMorte(data, "Roman killed Nick using M16");
+		final Morte morte = servico.carregarDadosPartida(data, "Roman killed Nick using M16");
 
 		Assert.assertEquals(data, morte.getData());
 		Assert.assertEquals("Roman", morte.getMatador().getNome());

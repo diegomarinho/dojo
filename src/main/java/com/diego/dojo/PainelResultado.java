@@ -53,11 +53,11 @@ public class PainelResultado {
 			sb.append("\n" + CategoryEnum.BONUS.getDescricao());
 
 			if (pontuacao.getMorreu() == 0) {
-				sb.append("[AWARD]  - Perfeito! Não houve morte.");
+				sb.append("[AWARD]  - Perfeito! Não houve morte durante partida.");
 			}
 
 			if (pontuacao.getJogador().equals(jogadorComMaiorSequenciaDeAssassinatosSeguidos)) {
-				sb.append("\n\t\t" + " [STREAK] - Perfeito! Maior sequencia de assassinatos");
+				sb.append("\n\t\t" + " [STREAK] - Perfeito! Maior sequencia de assassinatos durante partida.");
 			}
 
 			if (partida.getJogadorMatouMaisDeCincoVezesUmMinuto().contains(pontuacao.getJogador())) {
