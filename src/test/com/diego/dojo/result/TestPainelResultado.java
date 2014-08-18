@@ -14,6 +14,10 @@ import com.diego.dojo.entity.Partida;
 import com.diego.dojo.entity.Pontuacao;
 import com.diego.dojo.result.PainelResultado;
 
+/**
+ * @author Diego
+ * @since 18/08/2014
+ */
 public class TestPainelResultado {
 
 	@Test

@@ -1,6 +1,5 @@
 package com.diego.dojo.result;
 
-import java.text.SimpleDateFormat;
 import java.util.Set;
 
 import com.diego.dojo.entity.Arma;

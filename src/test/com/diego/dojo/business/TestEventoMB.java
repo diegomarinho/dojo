@@ -15,6 +15,10 @@ import com.diego.dojo.entity.Morte;
 import com.diego.dojo.entity.Partida;
 import com.diego.dojo.entity.Pontuacao;
 
+/**
+ * @author Diego
+ * @since 18/08/2014
+ */
 public class TestEventoMB {
 
 	@Test

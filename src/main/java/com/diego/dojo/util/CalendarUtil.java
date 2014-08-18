@@ -3,6 +3,10 @@ package com.diego.dojo.util;
 import java.util.Calendar;
 import java.util.Date;
 
+/**
+ * @author Diego
+ * @since 18/08/2014
+ */
 public class CalendarUtil {
 	
 	public boolean exibirPartidaEmUmMinuto(Date data, Date data2) {

@@ -7,6 +7,10 @@ import org.junit.Test;
 
 import com.diego.dojo.entity.Morte;
 
+/**
+ * @author Diego
+ * @since 18/08/2014
+ */
 public class TestMorteMB {
 
 	@Test

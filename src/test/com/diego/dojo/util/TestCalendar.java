@@ -11,6 +11,10 @@ import com.diego.dojo.entity.Jogador;
 import com.diego.dojo.entity.Morte;
 import com.diego.dojo.entity.Partida;
 
+/**
+ * @author Diego
+ * @since 18/08/2014
+ */
 public class TestCalendar {
 
 	@Test

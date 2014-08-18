@@ -7,6 +7,10 @@ import com.diego.dojo.entity.Arma;
 import com.diego.dojo.entity.Jogador;
 import com.diego.dojo.entity.Pontuacao;
 
+/**
+ * @author Diego
+ * @since 18/08/2014
+ */
 public class TestPontuacao {
 
 	@Test

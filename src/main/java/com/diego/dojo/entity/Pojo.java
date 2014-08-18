@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 import com.diego.dojo.entity.domain.BSPojo;
 
-
 /**
  * Entidade generica POJO.
  * 

@@ -1,7 +1,5 @@
 package com.diego.dojo.entity;
 
-
-
 /**
  * @author Diego
  * @since 15/08/2014
